@@ -23,7 +23,7 @@ namespace SysOpenCode
 
         private async void button1_Click(object sender, EventArgs e)
         {
-            int days = 0 - int.Parse(this.textBox1.Text);
+            int days = 0 - int.Parse(this.textBox1.Text);  
 
             DateTime endday = DateTime.Today; 
             DateTime sarday = DateTime.Today.AddDays(days);
